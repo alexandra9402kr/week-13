@@ -13,15 +13,16 @@ let minus = (a,b) => {
     alert(a - b);
 }
 
-let multiplication = () => {
+let multiplication = (a,b) => {
     a = prompt(`${name}, пожалуйста, введите первое число`);
     b = prompt(`${name}, пожалуйста, введите второе число`);
     alert(a * b);
 }
 
-let division = () => {
+let division = (a,b) => {
     a = prompt(`${name}, пожалуйста, введите первое число`);
     b = prompt(`${name}, пожалуйста, введите второе число`);
     alert(a / b);
 }
+
 
