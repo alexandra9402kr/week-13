@@ -1,27 +1,27 @@
 let name = prompt('Как тебя зовут?');
 alert ('Привет,' + name + '!');
 
-let summa = (a,b) => {
-    a = prompt(`${name}, пожалуйста, введите первое число`);
-    b = prompt(`${name}, пожалуйста, введите второе число`);
+let summa = () => {
+    let a = prompt(`${name}, пожалуйста, введите первое число`);
+    let b = prompt(`${name}, пожалуйста, введите второе число`);
     alert(Number(a) + Number(b));
 }
 
-let minus = (a,b) => {
-    a = prompt(`${name}, пожалуйста, введите первое число`);
-    b = prompt(`${name}, пожалуйста, введите второе число`);
+let minus = () => {
+    let a = prompt(`${name}, пожалуйста, введите первое число`);
+    let b = prompt(`${name}, пожалуйста, введите второе число`);
     alert(a - b);
 }
 
-let multiplication = (a,b) => {
-    a = prompt(`${name}, пожалуйста, введите первое число`);
-    b = prompt(`${name}, пожалуйста, введите второе число`);
+let multiplication = () => {
+    let a = prompt(`${name}, пожалуйста, введите первое число`);
+    let b = prompt(`${name}, пожалуйста, введите второе число`);
     alert(a * b);
 }
 
-let division = (a,b) => {
-    a = prompt(`${name}, пожалуйста, введите первое число`);
-    b = prompt(`${name}, пожалуйста, введите второе число`);
+let division = () => {
+    let a = prompt(`${name}, пожалуйста, введите первое число`);
+    let b = prompt(`${name}, пожалуйста, введите второе число`);
     alert(a / b);
 }
 
